@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NotFound tests should match snapshot 1`] = `
+<div>
+  <p
+    style={
+      Object {
+        "fontFamily": "Roboto Mono, Monaco, Consolas",
+      }
+    }
+  >
+    ¯\\\\\\_(ツ)\\_/¯
+  </p>
+  <p>
+    Not found
+  </p>
+</div>
+`;

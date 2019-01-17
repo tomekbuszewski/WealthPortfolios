@@ -1,0 +1,343 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CreatePortfolio tests should match snapshot with empty data 1`] = `
+<section
+  className="sc-bdVaJa gPOcxX section hero"
+>
+  <header
+    className="title"
+  >
+    Create portfolio
+  </header>
+  <div
+    className="content is-large"
+  >
+    <form>
+      <label
+        className="label"
+        htmlFor="name"
+      >
+        Portfolio name
+        <input
+          className="input"
+          disabled={false}
+          id="name"
+          name="name"
+          onChange={[Function]}
+          type="text"
+          value=""
+        />
+      </label>
+      <label
+        className="label"
+        htmlFor="clientName"
+      >
+        Client name
+        <input
+          className="input"
+          disabled={false}
+          id="clientName"
+          name="clientName"
+          onChange={[Function]}
+          type="text"
+          value=""
+        />
+      </label>
+      <label
+        className="label"
+        htmlFor="value"
+      >
+        Initial wallet value
+        <input
+          className="input"
+          disabled={false}
+          id="value"
+          name="value"
+          onChange={[Function]}
+          type="text"
+          value=""
+        />
+      </label>
+      <label
+        className="label"
+        htmlFor="currency"
+      >
+        Wallet currency
+        <input
+          className="input"
+          disabled={false}
+          id="currency"
+          name="currency"
+          onChange={[Function]}
+          type="text"
+          value=""
+        />
+      </label>
+      <p
+        className="notification is-primary subtitle is-6"
+      >
+        Please fill all the fields to submit form
+      </p>
+    </form>
+  </div>
+</section>
+`;
+
+exports[`CreatePortfolio tests should match snapshot with provided data 1`] = `
+<section
+  className="sc-bdVaJa gPOcxX section hero"
+>
+  <header
+    className="title"
+  >
+    Create portfolio
+  </header>
+  <div
+    className="content is-large"
+  >
+    <form>
+      <label
+        className="label"
+        htmlFor="name"
+      >
+        Portfolio name
+        <input
+          className="input"
+          disabled={false}
+          id="name"
+          name="name"
+          onChange={[Function]}
+          type="text"
+          value="Portfolio 1"
+        />
+      </label>
+      <label
+        className="label"
+        htmlFor="clientName"
+      >
+        Client name
+        <input
+          className="input"
+          disabled={false}
+          id="clientName"
+          name="clientName"
+          onChange={[Function]}
+          type="text"
+          value="Kowalski"
+        />
+      </label>
+      <label
+        className="label"
+        htmlFor="value"
+      >
+        Initial wallet value
+        <input
+          className="input"
+          disabled={false}
+          id="value"
+          name="value"
+          onChange={[Function]}
+          type="text"
+          value={100}
+        />
+      </label>
+      <label
+        className="label"
+        htmlFor="currency"
+      >
+        Wallet currency
+        <input
+          className="input"
+          disabled={false}
+          id="currency"
+          name="currency"
+          onChange={[Function]}
+          type="text"
+          value="PLN"
+        />
+      </label>
+      <p
+        className="notification is-primary subtitle is-6"
+      >
+        Please fill all the fields to submit form
+      </p>
+    </form>
+  </div>
+</section>
+`;
+
+exports[`CreatePortfolio tests should match snapshot with success false 1`] = `
+<section
+  className="sc-bdVaJa gPOcxX section hero"
+>
+  <header
+    className="title"
+  >
+    Create portfolio
+  </header>
+  <div
+    className="content is-large"
+  >
+    <form>
+      <div
+        className="notification is-warning"
+      >
+        Creation failed
+      </div>
+      <label
+        className="label"
+        htmlFor="name"
+      >
+        Portfolio name
+        <input
+          className="input"
+          disabled={false}
+          id="name"
+          name="name"
+          onChange={[Function]}
+          type="text"
+          value=""
+        />
+      </label>
+      <label
+        className="label"
+        htmlFor="clientName"
+      >
+        Client name
+        <input
+          className="input"
+          disabled={false}
+          id="clientName"
+          name="clientName"
+          onChange={[Function]}
+          type="text"
+          value=""
+        />
+      </label>
+      <label
+        className="label"
+        htmlFor="value"
+      >
+        Initial wallet value
+        <input
+          className="input"
+          disabled={false}
+          id="value"
+          name="value"
+          onChange={[Function]}
+          type="text"
+          value=""
+        />
+      </label>
+      <label
+        className="label"
+        htmlFor="currency"
+      >
+        Wallet currency
+        <input
+          className="input"
+          disabled={false}
+          id="currency"
+          name="currency"
+          onChange={[Function]}
+          type="text"
+          value=""
+        />
+      </label>
+      <p
+        className="notification is-primary subtitle is-6"
+      >
+        Please fill all the fields to submit form
+      </p>
+    </form>
+  </div>
+</section>
+`;
+
+exports[`CreatePortfolio tests should match snapshot with success true 1`] = `
+<section
+  className="sc-bdVaJa gPOcxX section hero"
+>
+  <header
+    className="title"
+  >
+    Create portfolio
+  </header>
+  <div
+    className="content is-large"
+  >
+    <form>
+      <div
+        className="notification is-success"
+      >
+        Creation successful
+      </div>
+      <label
+        className="label"
+        htmlFor="name"
+      >
+        Portfolio name
+        <input
+          className="input"
+          disabled={false}
+          id="name"
+          name="name"
+          onChange={[Function]}
+          type="text"
+          value=""
+        />
+      </label>
+      <label
+        className="label"
+        htmlFor="clientName"
+      >
+        Client name
+        <input
+          className="input"
+          disabled={false}
+          id="clientName"
+          name="clientName"
+          onChange={[Function]}
+          type="text"
+          value=""
+        />
+      </label>
+      <label
+        className="label"
+        htmlFor="value"
+      >
+        Initial wallet value
+        <input
+          className="input"
+          disabled={false}
+          id="value"
+          name="value"
+          onChange={[Function]}
+          type="text"
+          value=""
+        />
+      </label>
+      <label
+        className="label"
+        htmlFor="currency"
+      >
+        Wallet currency
+        <input
+          className="input"
+          disabled={false}
+          id="currency"
+          name="currency"
+          onChange={[Function]}
+          type="text"
+          value=""
+        />
+      </label>
+      <p
+        className="notification is-primary subtitle is-6"
+      >
+        Please fill all the fields to submit form
+      </p>
+    </form>
+  </div>
+</section>
+`;

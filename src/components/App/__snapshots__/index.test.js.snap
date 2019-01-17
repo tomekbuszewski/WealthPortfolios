@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App tests should match snapshot 1`] = `
+Array [
+  <header
+    className="navbar is-dark  sc-htpNat ceVeLR"
+  >
+    <div
+      className="container navbar-start"
+    >
+      <h1
+        className="navbar-brand navbar-item sc-bwzfXH bKLeIg"
+      >
+        Some Company
+      </h1>
+      <nav
+        className="navbar-menu "
+      >
+        <div
+          className="navbar-start"
+        >
+          <a
+            className="navbar-item"
+            href="#/"
+            onClick={[Function]}
+          >
+            Main page
+          </a>
+          <a
+            className="navbar-item"
+            href="#/portfolios/"
+            onClick={[Function]}
+          >
+            Portfolios
+          </a>
+          <a
+            className="navbar-item"
+            href="#/create"
+            onClick={[Function]}
+          >
+            Create Portfolio
+          </a>
+        </div>
+      </nav>
+      <button
+        className="navbar-burger sc-bdVaJa itQYwZ"
+        onClick={[Function]}
+        type="button"
+      >
+        <span
+          aria-hidden="true"
+        />
+        <span
+          aria-hidden="true"
+        />
+        <span
+          aria-hidden="true"
+        />
+      </button>
+    </div>
+  </header>,
+  <main
+    className="container"
+  >
+    <section
+      className="sc-bxivhb iHcyCE section hero"
+    >
+      <header
+        className="title"
+      >
+        Index
+      </header>
+      <div
+        className="content is-large"
+      >
+        <div>
+          Hello, please select something from the menu.
+        </div>
+      </div>
+    </section>
+  </main>,
+]
+`;

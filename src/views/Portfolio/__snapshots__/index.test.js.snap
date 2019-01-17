@@ -1,0 +1,175 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Portfolio tests should match snapshot with editable false 1`] = `
+<section
+  className="sc-bdVaJa gPOcxX section hero"
+>
+  <header
+    className="title"
+  >
+    Portfolio 1 — Kowalski
+  </header>
+  <div
+    className="content is-large"
+  >
+    <article>
+      <button
+        className="button is-small"
+        onClick={[Function]}
+        type="button"
+      >
+        Edit
+      </button>
+      <form>
+        <label
+          className="label"
+          htmlFor="value"
+        >
+          Amount
+          <input
+            className="input"
+            disabled={true}
+            id="value"
+            name="value"
+            onChange={[Function]}
+            type="text"
+            value={100}
+          />
+        </label>
+        <label
+          className="label"
+          htmlFor="currency"
+        >
+          Currency
+          <input
+            className="input"
+            disabled={true}
+            id="currency"
+            name="currency"
+            onChange={[Function]}
+            type="text"
+            value="PLN"
+          />
+        </label>
+        <label
+          className="label"
+          htmlFor="name"
+        >
+          Name
+          <input
+            className="input"
+            disabled={true}
+            id="name"
+            name="name"
+            onChange={[Function]}
+            type="text"
+            value="Portfolio 1"
+          />
+        </label>
+        <label
+          className="label"
+          htmlFor="clientName"
+        >
+          Client
+          <input
+            className="input"
+            disabled={true}
+            id="clientName"
+            name="clientName"
+            onChange={[Function]}
+            type="text"
+            value="Kowalski"
+          />
+        </label>
+      </form>
+    </article>
+  </div>
+</section>
+`;
+
+exports[`Portfolio tests should match snapshot with editable true 1`] = `
+<section
+  className="sc-bdVaJa gPOcxX section hero"
+>
+  <header
+    className="title"
+  >
+    Portfolio 1 — Kowalski
+  </header>
+  <div
+    className="content is-large"
+  >
+    <article>
+      <button
+        className="button is-small"
+        onClick={[Function]}
+        type="button"
+      >
+        Finish
+      </button>
+      <form>
+        <label
+          className="label"
+          htmlFor="value"
+        >
+          Amount
+          <input
+            className="input"
+            disabled={false}
+            id="value"
+            name="value"
+            onChange={[Function]}
+            type="text"
+            value={100}
+          />
+        </label>
+        <label
+          className="label"
+          htmlFor="currency"
+        >
+          Currency
+          <input
+            className="input"
+            disabled={false}
+            id="currency"
+            name="currency"
+            onChange={[Function]}
+            type="text"
+            value="PLN"
+          />
+        </label>
+        <label
+          className="label"
+          htmlFor="name"
+        >
+          Name
+          <input
+            className="input"
+            disabled={false}
+            id="name"
+            name="name"
+            onChange={[Function]}
+            type="text"
+            value="Portfolio 1"
+          />
+        </label>
+        <label
+          className="label"
+          htmlFor="clientName"
+        >
+          Client
+          <input
+            className="input"
+            disabled={false}
+            id="clientName"
+            name="clientName"
+            onChange={[Function]}
+            type="text"
+            value="Kowalski"
+          />
+        </label>
+      </form>
+    </article>
+  </div>
+</section>
+`;

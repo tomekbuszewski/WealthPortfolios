@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MainPage tests should match snapshot 1`] = `
+<section
+  className="sc-bdVaJa gPOcxX section hero"
+>
+  <header
+    className="title"
+  >
+    Index
+  </header>
+  <div
+    className="content is-large"
+  >
+    <div>
+      Hello, please select something from the menu.
+    </div>
+  </div>
+</section>
+`;

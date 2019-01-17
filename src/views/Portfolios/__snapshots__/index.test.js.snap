@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Portfolios tests should match snapshot 1`] = `
+<section
+  className="sc-bdVaJa gPOcxX section hero"
+>
+  <header
+    className="title"
+  >
+    Portfolios
+  </header>
+  <div
+    className="content is-large"
+  >
+    <ul>
+      <li>
+        <a
+          href="#/undefined"
+          onClick={[Function]}
+        >
+          Kowalski
+        </a>
+      </li>
+      <li>
+        <a
+          href="#/undefined"
+          onClick={[Function]}
+        >
+          Kowalski
+        </a>
+      </li>
+      <li>
+        <a
+          href="#/undefined"
+          onClick={[Function]}
+        >
+          Nowak
+        </a>
+      </li>
+      <li>
+        <a
+          href="#/undefined"
+          onClick={[Function]}
+        >
+          Nowak
+        </a>
+      </li>
+      <li>
+        <a
+          href="#/undefined"
+          onClick={[Function]}
+        >
+          Piotrowski
+        </a>
+      </li>
+    </ul>
+  </div>
+</section>
+`;
