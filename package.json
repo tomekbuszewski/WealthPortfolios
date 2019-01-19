@@ -44,7 +44,8 @@
   },
   "scripts": {
     "test": "jest --coverage",
-    "build:prod": "NODE_ENV=production webpack",
+    "deploy": "surge --domain tb-wealthportfolios.surge.sh --project public",
+    "build:prod": "rm -rf public; NODE_ENV=production webpack --mode production",
     "build:dev": "NODE_ENV=development webpack",
     "devserver": "NODE_ENV=development yarn build:dev && webpack-dev-server --hot"
   }

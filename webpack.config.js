@@ -1,17 +1,15 @@
+const webpack = require('webpack');
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ScriptExtHtmlWebpackPlugin = require('script-ext-html-webpack-plugin');
 
 const PROD = process.env.NODE_ENV === 'production';
+const ENV = PROD ? 'production' : 'development';
 
 module.exports = {
   mode: PROD ? 'production' : 'development',
   devtool: PROD ? 'none' : 'inline-source-map',
   entry: {
-    vendor: [
-      'react',
-      'react-dom',
-    ],
     index: ['babel-polyfill', './src/index.js'],
   },
   resolve: {
@@ -27,7 +25,7 @@ module.exports = {
     filename: PROD ? '[name].[hash].js' : '[name].js',
     hotUpdateChunkFilename: '.hot/[id].[hash].hot-update.js',
     hotUpdateMainFilename: '.hot/[hash].hot-update.json',
-    publicPath: '/public/',
+    publicPath: '/assets/',
   },
   module: {
     rules: [
@@ -39,7 +37,18 @@ module.exports = {
     ],
   },
   optimization: {
+    minimize: PROD,
+    nodeEnv: ENV,
+    mergeDuplicateChunks: true,
     splitChunks: {
+      chunks: 'all',
+      minSize: 30000,
+      maxSize: 0,
+      minChunks: 1,
+      maxAsyncRequests: 5,
+      maxInitialRequests: 3,
+      automaticNameDelimiter: '-',
+      name: true,
       cacheGroups: {
         vendor: {
           chunks: 'initial',
@@ -61,6 +70,11 @@ module.exports = {
     }),
     new ScriptExtHtmlWebpackPlugin({
       defaultAttribute: 'async',
+    }),
+    new webpack.DefinePlugin({
+      'process.env': {
+        NODE_ENV: JSON.stringify(ENV),
+      },
     }),
   ],
   devServer: {
